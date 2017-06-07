@@ -12,7 +12,7 @@ else
 {
   alert('Hi,' + ' ' + userName);
 }
-
+var answers = ['n','y','N','Y','No','Yes','NO','YES','no',' yes'];
 //use listor matrix to store expected answers
 // write if else in a function or loop
 //console log prints to console not browser
