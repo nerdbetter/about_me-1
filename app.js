@@ -3,14 +3,14 @@
 console.log('Loaded app.js');
 var userName = prompt('Type in your name');
 
-if (userName === null);
+if (userName === null)
 {
   alert('If you don\'t tell me your name, I will not know how to address you');
   prompt(userName);
 }
 else
 {
-alert('Hi,'+' '+userName);
+  alert('Hi,' + ' ' + userName);
 }
 
 //use listor matrix to store expected answers
