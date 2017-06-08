@@ -34,26 +34,33 @@ function firstQuestion(){
   }else{
   }
 }
-
-var secondQuestion = prompt('Do your employees live in cedar rapids?');
-if (secondQuestion){
-}else if(secondQuestion){
-}else{
+function secondQuestion(){
+  var secondQuestion = prompt('Do your employees live in cedar rapids?');
+  if (secondQuestion){
+  }else if(secondQuestion){
+  }else{
+  }
 }
-var thirdQuestion = prompt('Do you guys work in teams?');
-if(thirdQuestion){
-}else if(thirdQuestion){
-}else{
+function thirdQuestion(){
+  var thirdQuestion = prompt('Do you guys work in teams?');
+  if(thirdQuestion){
+  }else if(thirdQuestion){
+  }else{
+  }
 }
-var fourthQuestion = prompt('Do you hire employees with no programming work history?');
-if (fourthQuestion){
-}else if(fourthQuestion){
-}else{
+function fourthQuestion(){
+  var fourthQuestion = prompt('Do you hire employees with no programming work history?');
+  if (fourthQuestion){
+  }else if(fourthQuestion){
+  }else{
+  }
 }
-var fifthQuestion = prompt('Do you offer internships?');
-if (fifthQuestion){
-}else if(fifthQuestion){
-}else{
+function fifthQuestion(){
+  var fifthQuestion = prompt('Do you offer internships?');
+  if (fifthQuestion){
+  }else if(fifthQuestion){
+  }else{
+  }
 }
 
 //use listor matrix to store expected answers
