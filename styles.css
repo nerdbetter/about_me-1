@@ -1,5 +1,10 @@
+header{font-size: 3em;
+  color: black;
+}
 body{
-  background: AntiqueWhite;
-  font-family: cursive;
+  background: gray;
+  font-size: 2em;
+  font-family: "Agency FB" ;
+  color: orange ;
   p {}
 }
