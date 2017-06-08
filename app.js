@@ -11,8 +11,36 @@ if (userName === null)
 else
 {
   alert('Hi,' + ' ' + userName);
+  console.log('Hi' + ' ' + userName);
 }
 var answers = ['n','y','N','Y','No','Yes','NO','YES','no',' yes'];
+var firstQuestion = prompt('Do you employ 20 year olds?');
+if (firstQuestion === null){
+}else if(firstQuestion){
+}else{
+}
+
+var secondQuestion = prompt('Do your employees live in cedar rapids?');
+if (secondQuestion){
+}else if(secondQuestion){
+}else{
+}
+var thirdQuestion = prompt('Do you guys work in teams?');
+if(thirdQuestion){
+}else if(thirdQuestion){
+}else{
+}
+var fourthQuestion = prompt('Do you hire employees with no programming work history?');
+if (fourthQuestion){
+}else if(fourthQuestion){
+}else{
+}
+var fifthQuestion = prompt('Do you offer internships?');
+if (fifthQuestion){
+}else if(fifthQuestion){
+}else{
+}
+
 //use listor matrix to store expected answers
 // write if else in a function or loop
 //console log prints to console not browser
