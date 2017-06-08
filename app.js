@@ -18,21 +18,21 @@ function promptYesOrNo(message) {
 }
 function promptUntilYesOrNo(message, asklimit){
 }
-if (userName === null)
-{
+if (userName === null){
   alert('If you don\'t tell me your name, I will not know how to address you');
   prompt(userName);
-}
-else
-{
+}else{
   alert('Hi,' + ' ' + userName);
   console.log('Hi' + ' ' + userName);
 }
 var answers = ['n','y','N','Y','No','Yes','NO','YES','no',' yes'];
-var firstQuestion = prompt('Do you employ 20 year olds?');
-if (firstQuestion === null){
-}else if(firstQuestion){
-}else{
+//this is hust putting the first question into a function//
+function firstQuestion(){
+  var firstQuestion = prompt('Do you employ 20 year olds?');
+  if (firstQuestion === null){
+  }else if(firstQuestion){
+  }else{
+  }
 }
 
 var secondQuestion = prompt('Do your employees live in cedar rapids?');
