@@ -2,7 +2,22 @@
 
 console.log('Loaded app.js');
 var userName = prompt('Type in your name');
-
+// for every question there are three variables: null, yes, no
+function promptYesOrNo(message) {
+  var answer = prompt(message);
+  if (answer === null){
+    return null;
+  }
+  answer = answer.toLowerCase();
+  if (answer === 'y' || answer === 'yes') {
+    return true;
+  }
+  if (answer === 'n' || answer === 'no') {
+    return false;
+  }
+}
+function promptUntilYesOrNo(message, asklimit){
+}
 if (userName === null)
 {
   alert('If you don\'t tell me your name, I will not know how to address you');
